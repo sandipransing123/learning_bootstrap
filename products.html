@@ -7,18 +7,17 @@
     <title>Home page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <style>
-            .bg-purple{
-                background-color: rgb(42, 134, 214);
-            }
-        </style>
+    <style>
+        .bg-purple {
+            background-color: rgb(42, 134, 214);
+        }
+    </style>
 </head>
 
 <body>
     <!-- Header start -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-purple"
-         data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-purple" data-bs-theme="dark">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="images/forest sun.jpg" alt="Logo" width="30" height="24"
                         class="d-inline-block align-text-top">
@@ -66,7 +65,110 @@
     </header>
     <!-- Header end -->
 
-    <h1>I am on Product page</h1>
+    <main>
+        <!-- product section start -->
+        <section class="mt-5 bg-secondary">
+            <div class="container pb-4">
+                <div class="row">
+                    <h1 class="text-white">Our products</h1>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/Red-Mountain-Pass-Colorado.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Lake poster</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                                <h4>Rs.3999</h4>
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#lake">
+                                    Read more
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/butter flower.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">butterfly poster</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                                <h4>Rs.599</h4>
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/forest sun.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sun poster</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                                <h4>Rs.1099</h4>
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/waterfall-rain.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Waterfall poster</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card’s content.</p>
+                                <h4>Rs.2099</h4>
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- product section end -->
+
+        <!-- Lake model start -->
+        <div class="modal fade" id="lake" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Lake poster</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="images/Red-Mountain-Pass-Colorado.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                    <h3>Lake Poster</h3>
+                                    <br>
+                                    <p>A lake is a large, static body of water localized in an inland basin and
+                                        completely surrounded by land. Ranging from small backyard ponds to massive
+                                        inland seas, they are vital natural features that store freshwater</p>
+                                    <h4>Rs.3999</h4>
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="images/waterfall-rain.webp" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-4">
+                                    <img src="images/stone in water.jpg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lake model end -->
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
