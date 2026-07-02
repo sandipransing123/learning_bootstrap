@@ -7,9 +7,21 @@
     <title>Home page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <style>
         .bg-purple {
             background-color: rgb(42, 134, 214);
+        }
+        .social{
+            font-size: 50px;
+            margin: 10px;
+        }
+        .bi-facebook{
+            color: #0766ff;
+        }
+        .bi-youtube{
+            color: #ff0033;
         }
     </style>
 </head>
@@ -68,35 +80,94 @@
 
 
     <main>
-        <!-- contact section start -->
-        <section class="py-5">
+        <!-- logo start -->
+        <section>
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h1>Contact us</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-                        <form action="">
-                            <div class="mb-3">
-                                <label for="name" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="name" placeholder="Enter your name">
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="email" placeholder="Enter your email">
-                            </div>
-                            <div class="mb-3">
-                                <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control" id="message" rows="3"
-                                    placeholder="Enter your message"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </form>
+                        <h3>Social Media</h3>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook social"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube social"></i></a>
+
                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- logo end  -->
+
+
+        <!-- contact section start -->
+        <section class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 border border-secondary p-4">
+                        <h3>contact form</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Enter name</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Enter name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput2" class="form-label">Enter email</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput2"
+                                        placeholder="Enter email">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput2" class="form-label">Enter Phone number</label>
+                                    <input type="number" class="form-control" id="exampleFormControlInput2"
+                                        placeholder="Enter phone number">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Enter Subject</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="Enter Subject">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <label>Select country</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Select country</option>
+                                    <option value="1">India</option>
+                                    <option value="2">US</option>
+                                    <option value="3">UK</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <label>Select State</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Select State</option>
+                                    <option value="1">Maharashtra</option>
+                                    <option value="2">Rajasthan</option>
+                                    <option value="3">Goa</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <label>Select City</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Select city</option>
+                                    <option value="1">Pune</option>
+                                    <option value="2">Mumbai</option>
+                                    <option value="3">Nashik</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+
+
                     <div class="col-md-6">
-                        <h1>Reach us</h1>
+                        <h3>Reach us</h3>
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60494.3260569653!2d73.79993317246092!3d18.623774906640254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b84a081e64b5%3A0xde6ec85b024d2437!2sPimpri%20Chinchwad%20Science%20Park%2C%20Pune!5e0!3m2!1sen!2sin!4v1782893958966!5m2!1sen!2sin"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15123.401302782506!2d73.79827077514454!3d18.625800716783143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9006c0e2585%3A0xd086db7c51c2e73e!2sIRANI%20CAFE%20-%20PIMPRI!5e0!3m2!1sen!2sin!4v1783001040953!5m2!1sen!2sin"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="strict-origin-when-cross-origin"></iframe>
                     </div>
                 </div>
